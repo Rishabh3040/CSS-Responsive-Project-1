@@ -41,3 +41,161 @@ body {
     font-weight: 600;
     border-radius: 50%;
 }
+
+#center {
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: red; */
+    padding: 0px 50px;
+}
+
+#center h1 {
+    /* font-size: 50px; */
+    font-size: 4.1vw;
+    font-weight: 200;
+    line-height: 4.4vw;
+}
+
+#center-in {
+    /* height: 200px; */
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p {
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 1.7vw;
+}
+
+#right {
+    width: 20%;
+}
+
+.elem {
+    /* background-color: yellow; */
+    margin: 5px;
+    padding: 5px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem i {
+    font-size: 25px;
+    font-weight: 500px;
+    opacity: 0;
+    color: #303030;
+}
+
+.elem a {
+    color: #303030;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.elem:hover i {
+    opacity: 1;
+}
+
+.elem:hover {
+    background-color: rgb(175, 177, 178);
+}
+
+.elem:hover {
+    text-decoration: underline;
+}
+
+#bottom {
+    height: 30%;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url(https://media.istockphoto.com/id/1342849839/photo/beautiful-afro-woman-with-pigtails-and-stylish-clothes.jpg?s=1024x1024&w=is&k=20&c=X8xbs21qEHjEmqBvNUHh6nDKfHOWmWv229wErB5zdvM=);
+    background-size: cover;
+    background-position: 0 25%;
+}
+
+@media(max-width:600px) {
+    #nav {
+        height: 60px;
+        gap: 10px;
+        padding: 0 20px;
+    }
+    #nav h4 {
+        font-size: 12px;
+        font-weight: 600;
+        /* display: none; */
+    }
+    #nav i {
+        /* background-color: black; */
+        /* color: white; */
+        font-size: 11px;
+        padding: 7px;
+        font-weight: 600;
+        border-radius: 50%;
+    }
+    #center {
+        /* height: 40%; */
+        width: 100%;
+        /* background-color: red; */
+        padding: 0px 20px;
+    }
+    #center h1 {
+        /* font-size: 50px; */
+        font-size: 10.1vw;
+        font-weight: 200;
+        line-height: 12vw;
+    }
+    #center-in {
+        /* background-color: red; */
+        width: 100%;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 10px;
+    }
+    #center-in p {
+        font-size: 3vw;
+        font-weight: 400;
+        line-height: 4.2vw;
+    }
+    #right {
+        width: 100%;
+    }
+    .elem {
+        /* background-color: yellow; */
+        margin: 5px;
+        padding: 5px 0;
+        border-top: 1.5px solid #303030;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .elem i {
+        font-size: 18px;
+        font-weight: 500px;
+        opacity: 1;
+        color: #303030;
+    }
+    .elem a {
+        color: #303030;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    #bottom {
+        height: 47%;
+        width: 100%;
+        /* background-color: red; */
+        background-image: url(https://media.istockphoto.com/id/1342849839/photo/beautiful-afro-woman-with-pigtails-and-stylish-clothes.jpg?s=1024x1024&w=is&k=20&c=X8xbs21qEHjEmqBvNUHh6nDKfHOWmWv229wErB5zdvM=);
+        background-size: cover;
+        background-position: 50% 25%;
+    }
+}
